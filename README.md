@@ -1,0 +1,1 @@
+# qazaqsoft-interview-task
