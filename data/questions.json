@@ -1,0 +1,25 @@
+{
+  "title": "Основы веб-разработки",
+  "timeLimitSec": 300,
+  "passThreshold": 0.7,
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Какой тег HTML используется для самого крупного заголовка?",
+      "options": ["<title>", "<h6>", "<h1>", "<header>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q2",
+      "text": "Как в CSS задать цвет текста?",
+      "options": ["font-color", "text-color", "color", "font.fill"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q3",
+      "text": "Какой метод используется для HTTP-запроса в браузере (без библиотек)?",
+      "options": ["axios()", "request()", "fetch()", "$.ajax()"],
+      "correctIndex": 2
+    }
+  ]
+}
