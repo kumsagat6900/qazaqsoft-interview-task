@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz — Образовательная платформа</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <main class="container" aria-live="polite">
       <header class="header">
-        <h1 id="quiz-title">Загрузка…</h1>
+        <h1 id="quiz-title">Загрузка.</h1>
         <div class="meta">
-          <div id="progress" aria-label="Прогресс теста">Вопрос — / —</div>
-          <div id="timer" aria-label="Оставшееся время">—:—</div>
+          <div id="progress" aria-label="Прогресс теста">Вопрос - / -</div>
+          <div id="timer" aria-label="Оставшееся время">-:-</div>
         </div>
       </header>
 
@@ -29,7 +29,6 @@
           aria-label="Варианты ответа"
         ></form>
       </section>
-
       <nav class="actions">
         <button id="btn-prev" class="btn" type="button" aria-label="Назад">
           Назад
@@ -53,7 +52,6 @@
           Завершить
         </button>
       </nav>
-
       <section id="result-section" class="card hidden" aria-live="polite">
         <h2>Результат</h2>
         <p id="result-summary">—</p>
